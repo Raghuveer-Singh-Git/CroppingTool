@@ -12,7 +12,7 @@
   }
   @media only screen and (max-width: 768px) {
     #crest {width: 40vw}
-    .container {display: block}
+    .container {grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));}
   }
   body {
     background-color: #025bee;
