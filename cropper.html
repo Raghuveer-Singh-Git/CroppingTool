@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ICA Cropping Tool</title>
+    <link rel = "icon" href = "img/ICA-Crest.png" type = "image/x-icon">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet"/>
+    <!-- Cropper -->
+    <script src="JS/cropper.js"></script>
+    <link rel="stylesheet" href="CSS/cropper.css"/>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <img src="img/ICA-Crest.png" style="width: 10vw; display: block; margin-left: auto; margin-right: auto;">
+      <h1 style="text-align: center">ICA Cropping Tool</h1> 
+      <h6 style="text-align: center; margin-top: 5px;">by Team #ABOVEALL</h1> 
+      <div><br></div>
+      <div class="container">
+        <div class="image-container">
+          <img id="image" />
+        </div>
+        <div class="preview-container">
+          <img id="preview-image" />
+        </div>
+      </div>
+      <input type="file" id="file" accept="image/*" />
+      <label for="file">Choose A Photo</label>
+      <div class="btns">
+        <button id="preview" class="hide">Preview</button>
+        <a href="" id="download" class="hide">Download</a>
+      </div>
+      <h6 style="text-align: center;">This was made possible thanks to <a href="https://github.com/fengyuanchen/cropperjs/blob/main/README.md">Fengyuan Chen</a> & <a href="https://codingartistweb.com/2023/07/crop-and-download-image/">Coding Artist Web</a>.</h1>
+          
+    </div>
+    <!-- Script -->
+    <script src="JS/script.js"></script>
+  </body>
+</html>
