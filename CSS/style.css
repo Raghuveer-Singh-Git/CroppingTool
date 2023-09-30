@@ -12,7 +12,6 @@
   }
   @media only screen and (max-width: 768px) {
     #crest {width: 40vw}
-    .container {grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));}
   }
   body {
     background-color: #025bee;
@@ -29,7 +28,7 @@
   }
   .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    .container {grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 1em;
     border-radius: 7px;
   }
