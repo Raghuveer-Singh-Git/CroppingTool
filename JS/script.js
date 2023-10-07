@@ -23,7 +23,7 @@ fileInput.onchange = () => {
     }
     //Initialize cropper
     cropper = new Cropper(image);
-    cropper.setAspectRatio(eval(14/19));  // Set aspect ratio
+    cropper.setAspectRatio(eval(400/514));  // Set aspect ratio
     previewButton.classList.remove("hide");
   };
   fileName = fileInput.files[0].name.split(".")[0];
